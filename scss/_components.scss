@@ -3,4 +3,45 @@
   height: 5px;
   width: 42px;
   background-color: $orange;
+  position: relative;
+  top: 280px;
+}
+
+.corner-text {
+  position: relative;
+  top: 300px;
+  font-family: $font-stack-secondary;
+  font-size: 1.35rem;
+}
+
+.icon-bg {
+  background-image: url(../img/icon-background.png);
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  margin: 80px auto;
+}
+
+#raft-icon img,
+#basecamp-icon img,
+#canoe-icon img,
+#backpacking-icon img,
+#photo-icon img,
+#custom-icon img {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  top: 19px;
+  left: 22px;
+}
+
+#canoe-icon img {
+  height: 55px;
+  width: 55px;
+  top: 15px;
+  left: 18px;
+}
+
+#custom-icon img {
+  top: 21px;
 }
