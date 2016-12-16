@@ -56,7 +56,8 @@ table {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #fff; }
+  color: #fff;
+  padding: 30px; }
 
 .raft, .custom {
   height: 420px;
@@ -64,7 +65,8 @@ table {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff; }
+  color: #fff;
+  padding: 30px; }
 
 .raft {
   background-image: url("../img/raft.jpg"); }
@@ -75,7 +77,8 @@ table {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff; }
+  color: #fff;
+  padding: 30px; }
 
 .camp {
   background-image: url("../img/camp.jpg"); }
@@ -102,6 +105,58 @@ table {
   height: 5px;
   width: 42px;
   background-color: #dc7725; }
+
+h1 {
+  font-size: 5em; }
+
+.hero-overlay {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px; }
+
+.title-text {
+  font-family: "Cardo", "Crimson Text", serif; }
+
+.title-subtext {
+  font-family: "Fjalla One", "Open Sans", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px; }
+
+#hero-bar {
+  width: 300px;
+  height: 5px;
+  background-color: #fff; }
+
+#logo {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-size: 1.5em; }
+
+#menu {
+  float: right;
+  position: relative;
+  top: -20px;
+  left: -10px; }
+
+#play-circle {
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 90px;
+  width: 90px;
+  position: relative;
+  top: 20px; }
+
+#play-icon img {
+  height: 40px;
+  width: 35px;
+  position: relative;
+  top: 25px;
+  left: 30px; }
 
 #copyright {
   color: #dc7725; }

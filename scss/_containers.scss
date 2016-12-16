@@ -1,0 +1,70 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.hero {
+  height: 500px;
+  width: 100vw;
+  background-image: url("../img/hero-moose.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $white;
+  padding: 30px;
+}
+
+
+.raft, .custom {
+  height: 420px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $white;
+  padding: 30px;
+}
+
+.raft {
+  background-image: url("../img/raft.jpg");
+}
+
+.camp, .backpack, .canoe, .photo {
+  height: 420px;
+  width: 49.2vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $white;
+  padding: 30px;
+}
+
+.camp {
+  background-image: url("../img/camp.jpg");
+}
+
+.canoe {
+  background-image: url("../img/canoe.jpg");
+}
+
+.backpack {
+  background-image: url("../img/backpack.jpg");
+}
+
+.photo {
+  background-image: url("../img/photo.jpg");
+}
+
+.custom {
+  background-image: url("../img/basecamp.jpg");
+}
+
+.footer {
+  background-color: $darkergrey;
+  height: 420px;
+  color: $lightgrey;
+  width: 100vw;
+}
