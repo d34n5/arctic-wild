@@ -4,7 +4,7 @@
 
 ![screenshot](img/arctic.png)
 
-### Simple Web App made with Sass & Flexbox ###
+## Simple Web App made with Sass & Flexbox ##
 
 ### Week 4 CSS Independent Project by Dean Scelza @ Epicodus, 12-16-16 ###
 
