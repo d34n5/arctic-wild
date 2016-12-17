@@ -1,0 +1,89 @@
+
+.footer-top {
+  background-image: url("../img/footer-background.jpg");;
+  background-repeat: repeat;
+  height: 230px;
+  color: $lightgrey;
+  width: 100%;
+  min-width: 750px;
+  padding: 2.5rem;
+  border-bottom: 2px solid #222;
+}
+
+.footer-bottom {
+  font-family: "Open Sans", sans-serif;
+  font-size: .9rem;
+  background-color: $darkestgrey;
+  height: 500px;
+  color: $lightgrey;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.footer-bottom li {
+  padding: 1.25rem 1.25rem 1.25rem 0rem;
+  border-bottom: 1px solid $darkgrey;
+}
+
+.design {
+  color: $white;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.elephant {
+  color: $orange;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+#big-logo {
+  float: right;
+  position: relative;
+  top: -90px;
+}
+
+#col-1, #col-2 {
+  width: 40%;
+  float: left;
+  margin: 0 5%;
+}
+
+#icons {
+  display: block;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+#copyright {
+  display: block;
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+
+#copy-top {
+  color: $white;
+  font-family: $font-stack-primary;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+#email {
+  color: $orange;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contact-info {
+  color: $lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#copyright {
+  color: $orange;
+}
