@@ -48,7 +48,8 @@ table {
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw; }
+  width: 100%;
+  overflow: hidden; }
 
 .hero {
   height: 500px;
@@ -58,7 +59,21 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
-  padding: 2rem .5rem; }
+  padding: 2.5rem; }
+
+.hero-overlay {
+  position: relative;
+  top: 50px;
+  right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 330px;
+  margin: 0 auto; }
+
+.hero-text {
+  font-size: 5rem; }
 
 .raft, .custom {
   height: 420px;
@@ -96,11 +111,46 @@ table {
 .custom {
   background-image: url("../img/basecamp.jpg"); }
 
-.footer {
-  background-color: #464646;
-  height: 420px;
+.footer-top {
+  background-image: url("../img/footer-background.jpg");
+  background-repeat: repeat;
+  height: 230px;
   color: #a9a9a0;
-  width: 100%; }
+  width: 100%;
+  min-width: 750px;
+  padding: 2.5rem;
+  border-bottom: 2px solid #222; }
+
+.footer-bottom {
+  background-color: #343433;
+  height: 500px;
+  color: #a9a9a0;
+  width: 100%;
+  padding: 2.5rem; }
+
+.design {
+  color: #dc7725;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif; }
+
+.elephant {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif; }
+
+#col-1, #col-2 {
+  width: 40%;
+  float: left;
+  margin: 0 5%; }
+
+#copyright {
+  display: block;
+  position: relative;
+  left: 30px;
+  top: 130px; }
+
+.footer-bottom li {
+  padding: 1.25rem 1.25rem 1.25rem 0rem;
+  border-bottom: 1px solid #646461; }
 
 .orange-bar {
   height: 5px;
@@ -143,28 +193,41 @@ table {
 #custom-icon img {
   top: 21px; }
 
+#big-logo {
+  float: right;
+  position: relative;
+  top: -90px; }
+
+#small-logo {
+  float: left;
+  font-size: 1.15em;
+  position: relative;
+  top: -18px; }
+
+#copy-top {
+  color: #fff;
+  font-family: "Cardo", "Crimson Text", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 30px; }
+
+#email {
+  color: #dc7725;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif; }
+
+#contact-info {
+  color: #a9a9a0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem; }
+
 * {
   box-sizing: border-box; }
 
 h1 {
   font-size: 2.75em;
   font-weight: bold; }
-
-.hero-overlay {
-  position: relative;
-  top: 30px;
-  left: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 350px;
-  margin: 0 auto; }
-
-.title-text {
-  font-family: "Cardo", "Crimson Text", serif;
-  position: relative;
-  top: -10px; }
 
 .title-subtext {
   font-family: "Fjalla One", "Open Sans", sans-serif;
@@ -176,17 +239,9 @@ h1 {
   height: 5px;
   background-color: #fff; }
 
-#logo {
-  position: relative;
-  top: 15px;
-  left: 30px;
-  font-size: 1.15em; }
-
 #menu {
   float: right;
-  position: relative;
-  top: -20px;
-  left: -10px; }
+  position: relative; }
 
 #play-circle {
   border-radius: 100%;
@@ -205,5 +260,10 @@ h1 {
 
 #copyright {
   color: #dc7725; }
+
+.title-text {
+  font-family: "Cardo", "Crimson Text", serif;
+  float: left;
+  font-size: 1.25rem; }
 
 /*# sourceMappingURL=app.css.map */

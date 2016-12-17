@@ -12,23 +12,9 @@ h1 {
   font-weight: bold;
 }
 
-.hero-overlay {
-  position: relative;
-  top: 30px;
-  left: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 350px;
-  margin: 0 auto;
-}
 
-.title-text {
-  font-family: $font-stack-primary;
-  position: relative;
-  top: -10px;
-}
+
+
 
 .title-subtext {
   font-family: $font-stack-secondary;
@@ -42,18 +28,12 @@ h1 {
   background-color: $white;
 }
 
-#logo {
-  position: relative;
-  top: 15px;
-  left: 30px;
-  font-size: 1.15em;
-}
+
 
 #menu {
   float: right;
   position: relative;
-  top: -20px;
-  left: -10px;
+  
 }
 
 #play-circle {
@@ -75,4 +55,10 @@ h1 {
 
 #copyright {
   color: $orange;
+}
+
+.title-text {
+  font-family: $font-stack-primary;
+  float: left;
+  font-size: 1.25rem;
 }

@@ -2,7 +2,8 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
 }
 
 
@@ -15,7 +16,23 @@
   background-repeat: no-repeat;
   background-position: center;
   color: $white;
-  padding: 2rem .5rem;
+  padding: 2.5rem;
+}
+
+.hero-overlay {
+  position: relative;
+  top: 50px;
+  right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 330px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  font-size: 5rem;
 }
 
 
@@ -63,9 +80,50 @@
   background-image: url("../img/basecamp.jpg");
 }
 
-.footer {
-  background-color: $darkergrey;
-  height: 420px;
+.footer-top {
+  background-image: url("../img/footer-background.jpg");;
+  background-repeat: repeat;
+  height: 230px;
   color: $lightgrey;
   width: 100%;
+  min-width: 750px;
+  padding: 2.5rem;
+  border-bottom: 2px solid #222;
+}
+
+.footer-bottom {
+  background-color: $darkestgrey;
+  height: 500px;
+  color: $lightgrey;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.design {
+  color: $orange;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.elephant {
+  color: $white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#col-1, #col-2 {
+  width: 40%;
+  float: left;
+  margin: 0 5%;
+}
+
+#copyright {
+  display: block;
+  position: relative;
+  left: 30px;
+  top: 130px;
+}
+
+.footer-bottom li {
+  padding: 1.25rem 1.25rem 1.25rem 0rem;
+  border-bottom: 1px solid $darkgrey;
 }
