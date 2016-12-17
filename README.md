@@ -2,7 +2,7 @@
 
 ### Please check it out live on gh-pages: https://d34n5.github.io/arctic-wild ###
 
-![screenshot](img/arctic-wild-ss.png)
+![screenshot](img/arctic.png)
 
 ### Simple Web App made with Sass & Flexbox ###
 
