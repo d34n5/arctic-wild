@@ -63,7 +63,8 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
-  padding: 2rem; }
+  padding: 2rem;
+  padding-top: 4rem; }
   @media (min-width: 968px) {
     .hero {
       height: 100vh;
@@ -300,7 +301,8 @@ h1 {
 
 #menu {
   float: right;
-  position: relative; }
+  position: relative;
+  top: -20px; }
 
 #play-circle {
   border-radius: 100%;
