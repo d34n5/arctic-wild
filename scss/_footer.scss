@@ -2,11 +2,12 @@
 .footer-top {
   background-image: url("../img/footer-background.jpg");;
   background-repeat: repeat;
-  height: 230px;
+  height: 210px;
   color: $lightgrey;
   width: 100%;
   min-width: 750px;
   padding: 2.5rem;
+  border-top: 2px solid #222;
   border-bottom: 2px solid #222;
 }
 
@@ -47,6 +48,10 @@
   width: 40%;
   float: left;
   margin: 0 5%;
+  @media (min-width: 968px) {
+    width: 25%;
+    margin: 0% 2%;
+  }
 }
 
 #icons {
@@ -54,6 +59,10 @@
   position: relative;
   left: 20px;
   top: 30px;
+  @media (min-width: 968px) {
+    top: 250px;
+    left: -500px;
+  }
 }
 
 #copyright {
@@ -61,6 +70,10 @@
   position: relative;
   top: 60px;
   left: 30px;
+  @media (min-width: 968px) {
+    top: 250px;
+    left: -500px;
+  }
 }
 
 #copy-top {
