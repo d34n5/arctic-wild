@@ -140,7 +140,7 @@ h1 {
 #play-circle {
   border-radius: 100%;
   background-color: rgba(255, 255, 255, 0.5);
-  height: 90px;
+  min-height: 90px;
   width: 90px;
   position: relative;
   top: 20px;
