@@ -9,6 +9,7 @@
   padding: 2.5rem;
   border-top: 2px solid #222;
   border-bottom: 2px solid #222;
+
 }
 
 .footer-bottom {
@@ -19,6 +20,14 @@
   color: $lightgrey;
   width: 100%;
   padding: 2.5rem;
+
+}
+
+.bottom-container {
+  @media (min-width: 968px) {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 .footer-bottom li {
@@ -71,7 +80,7 @@
   top: 60px;
   left: 30px;
   @media (min-width: 968px) {
-    top: 250px;
+    top: 300px;
     left: -500px;
   }
 }
@@ -81,7 +90,9 @@
   font-family: $font-stack-primary;
   font-weight: bold;
   font-size: 1.5rem;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
+  max-width: 1200px;
+
 }
 
 #email {
@@ -99,4 +110,17 @@
 
 #copyright {
   color: $orange;
+  @media (min-width: 968px) {
+  position: relative;
+  top: 260px;
+  }
+}
+
+.bottom-content {
+  @media (min-width: 968px) {
+    display: inline-block;
+    position: relative;
+    bottom: 240px;
+    left: 540px;
+  }
 }

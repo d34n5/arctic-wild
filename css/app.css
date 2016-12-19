@@ -72,19 +72,19 @@ table {
 
 .hero-overlay {
   position: relative;
-  top: 75px;
-  right: 70px;
+  top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 50%;
+  height: 60%;
   min-height: 270px;
   margin: 0 auto; }
   @media (min-width: 968px) {
     .hero-overlay {
-      right: 100px;
-      top: 80px; } }
+      top: 100px;
+      height: 70%;
+      min-height: 500px; } }
 
 .hero-text {
   font-size: 5rem; }
@@ -92,19 +92,17 @@ table {
     .hero-text {
       font-size: 7rem; } }
 
-.nav-bar {
+#nav-list {
   display: none; }
+  @media (min-width: 968px) {
+    #nav-list {
+      display: flex; } }
 
-@media (min-width: 968px) {
-  .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 25px;
-    left: 270px; } }
-  @media (min-width: 968px) and (min-width: 1200px) {
-    .nav-bar {
-      left: 420px; } }
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 @media (min-width: 968px) {
   .nav-bar ul {
@@ -138,18 +136,18 @@ table {
       padding-top: 18px;
       font-family: "Fjalla One", "Open Sans", sans-serif;
       position: relative;
-      top: 70px;
+      top: 170px;
       z-index: 3; } }
 
 #explore-triangle img {
   display: none;
   transform: rotate(90deg);
   position: relative;
-  top: 25px;
   z-index: 2; }
   @media (min-width: 968px) {
     #explore-triangle img {
-      display: inline-block; } }
+      display: inline-block;
+      top: 100px; } }
 
 .raft, .custom {
   height: 420px;
@@ -236,6 +234,10 @@ h1 {
       font-size: 1.5rem;
       letter-spacing: 4px; } }
 
+.ulc-logo {
+  position: relative;
+  top: 20px; }
+
 #hero-bar {
   width: 300px;
   height: 5px;
@@ -255,7 +257,8 @@ h1 {
     .mid-nav {
       display: flex;
       justify-content: space-between;
-      padding-left: 50px;
+      padding-left: 15%;
+      padding-right: 12%;
       margin-right: -30px; } }
 
 .mid-nav ul {
@@ -319,7 +322,8 @@ h1 {
 #menu {
   float: right;
   position: relative;
-  top: -20px; }
+  top: 10px;
+  right: 50px; }
 
 #play-circle {
   border-radius: 100%;
@@ -361,6 +365,11 @@ h1 {
   color: #a9a9a0;
   width: 100%;
   padding: 2.5rem; }
+
+@media (min-width: 968px) {
+  .bottom-container {
+    max-width: 1200px;
+    margin: 0 auto; } }
 
 .footer-bottom li {
   padding: 1.25rem 1.25rem 1.25rem 0rem;
@@ -407,7 +416,7 @@ h1 {
   left: 30px; }
   @media (min-width: 968px) {
     #copyright {
-      top: 250px;
+      top: 300px;
       left: -500px; } }
 
 #copy-top {
@@ -415,7 +424,8 @@ h1 {
   font-family: "Cardo", "Crimson Text", serif;
   font-weight: bold;
   font-size: 1.5rem;
-  margin-top: 30px; }
+  margin: 30px auto 0 auto;
+  max-width: 1200px; }
 
 #email {
   color: #dc7725;
@@ -430,5 +440,16 @@ h1 {
 
 #copyright {
   color: #dc7725; }
+  @media (min-width: 968px) {
+    #copyright {
+      position: relative;
+      top: 260px; } }
+
+@media (min-width: 968px) {
+  .bottom-content {
+    display: inline-block;
+    position: relative;
+    bottom: 240px;
+    left: 540px; } }
 
 /*# sourceMappingURL=app.css.map */
